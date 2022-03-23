@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Lesson 5</title>
+<meta charset="utf8">
+<style>
+.parent {
+    width: 500px;
+    height: 500px;
+    background: green;
+    color: white;
+    font-size: 30px;
+}    
+
+#someid{
+    width: 300px;
+    height: 500px;
+    background: black;
+    color: #5d5d5d;
+    font-size: 60px;
+}
+
+</style>
+
+</head>
+
+<body>
+<!-- style -->
+<div class="parent"> Some text </div>
+<div id="someid"> div id</div>
+
+<!-- script -->
+<script>
+    console.log("Hello");
+    let div = document.querySelector("#someid");
+    let div2 = document.querySelector(".parent");
+</script>
+
+<!-- iframe -->
+
+<div class="video">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n_qtkSay9hQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.40971768871!2d44.51046241534838!3d40.177694479393665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcfa28499691%3A0x2bde14d127166c74!2sRepublic%20Square!5e0!3m2!1sen!2s!4v1647951700917!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+</body>
+
+</html>
