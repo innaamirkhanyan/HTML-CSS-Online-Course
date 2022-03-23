@@ -1,0 +1,73 @@
+/*
+selectors = h1, p, id, span
+
+selector{
+    code: result
+}
+
+
+1. CSS-ը կարդում է ներքևից վերև
+2․ Պետք է ամեն հրամանից հետո կետ ստորակետով փակել հրամանը
+3․ Style-երը պետք է տալ կոնկրետ էլեմենտի կամ թեգի, և ոչ գլոբալ
+
+class= .
+id = #
+id տալիս ենք ունիկսլ թեգերին
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+
+h1{
+    color: gray;
+   
+}
+
+p > span{
+    color: bisque;
+    font-style: italic;
+}
+
+
+
+.class1 {
+    color: blueviolet;
+    background-color: antiquewhite;
+
+}
+.class2 {
+    color: black;
+
+}
+.class3 {
+    color: orange;
+}
+
+/* .sometext {
+    color: red;
+    color: #f00;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0, 0.9);
+    
+} */
+
+body{
+    font-family: monospace;
+}
+
+.sometext {
+    color: rgb(10, 10, 83)violet;
+    font-size: 22px;
+    text-align: justify;    /*center, justify, end, start*/
+    font-weight: bold;      /*100-900, light, normal (default), regular, bold, bolder || normal, bold*/
+    font-family: 'Inspiration', cursive;  /* Arial, Helvetica, sans-serif; */
+    letter-spacing: 3px;
+    line-height: default;
+    text-transform: capitalize; /*uppercase, lowercase, capitalize.*/
+    text-shadow: 1px 1px 2px;
+    font-style: italic;
+
+
+}
+
