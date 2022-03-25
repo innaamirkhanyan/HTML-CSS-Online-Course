@@ -1,0 +1,29 @@
+.some{
+   opacity: 1; 
+}
+
+.bg {
+    background: red;
+    width: 400px;
+    height: 400px;
+    opacity: 0.5;
+}
+
+.bg:hover {
+    opacity: 1;
+}
+
+.test{
+    width: 500px;
+    height: 500px;
+}
+
+.test > img{
+    width: 100%;
+    opacity: 1;
+    transition: 1s;
+}
+
+.test:hover > img {
+    opacity: 0.6;
+}

@@ -1,0 +1,26 @@
+.somediv{
+    background: url('https://pbs.twimg.com/media/FOYrBD-XwAoFTmV.jpg');
+    background-size: cover; /* auto, cover, contain, 100% */
+    background-repeat: no-repeat;  /* repeat, no-repeat, repeat-x, repeat-y */
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-position: 50% 30%;  /* X, Y | 0%, 0% */
+}
+
+.mydiv {
+    width: 100%;
+    height: 400px;
+    background: url("https://www.fantasyarts.net/wp-content/uploads/2015/01/winter-sparkle-original-madart-painting-megan-duncanson.jpg");
+    background-attachment: fixed;   /* scroll, fixed, local, inherit */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.super {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+

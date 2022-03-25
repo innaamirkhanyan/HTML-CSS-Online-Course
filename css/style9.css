@@ -1,0 +1,13 @@
+.scaling {
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    transition: 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.scaling:hover {
+    background: pink;
+    transform: scale(1.05);      /* scaleX() scaleY() */
+    transform: translateX(300px);
+    transform: rotate(180deg);
+}
