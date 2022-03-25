@@ -1,0 +1,33 @@
+.google {
+    color: brown;
+}
+
+.google:hover {
+    color: red;
+}
+
+.google:focus {
+    color: green;
+}
+
+.sometext {
+    color: red;
+    font-size: 30px;
+    font-family: Arial;
+
+}
+
+.sometext:nth-child(3){
+    color: black;
+}
+
+.sometext:first-child{
+    color: gray;
+}
+
+.story:first-letter{
+    font-size: 30px;
+    font-weight: bold;
+    color: blueviolet;
+}
+

@@ -1,0 +1,19 @@
+body {
+    color: green;
+}
+
+a {
+    color: aqua;
+}
+
+ul li a {
+    color: brown;
+}
+
+body ul li a {
+    color: rgb(228, 24, 92);
+}
+
+html body ul li a {
+    color: rgb(50, 3, 110);
+}
