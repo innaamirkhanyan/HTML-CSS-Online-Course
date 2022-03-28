@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    max-width: 900px;
+}
+
+.text > .text-cover{
+    float: left;
+    margin-right: 10px;
+}
+
+.text > .text-cover > img {
+    width: 100%;
+}
+
+#some {
+    font-weight: bold;
+}
